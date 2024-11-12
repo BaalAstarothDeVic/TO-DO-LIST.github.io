@@ -1,7 +1,7 @@
 {
   "name": "TODO-LIST (Servicio Constitucional)",
   "short_name": "TODO-LIST",
-  "start_url": "myapp://index.html",
+  "start_url": "https://baalastarothdevic.github.io/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#4CAF50",
