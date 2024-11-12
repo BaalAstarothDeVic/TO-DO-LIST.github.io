@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -6,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="service-worker.js">
 
     <title>Tabla Editable</title>
   
@@ -14,7 +15,7 @@
     
     body {
       font-family: Arial, sans-serif;
-      background-image: url("fondo.jpg"); /*Ingresa el fondo*/
+      background-image: url("Imagenes/fondo.jpg"); /*Ingresa el fondo*/
       background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda el área */
       background-repeat: no-repeat; /* Evita que la imagen se repita */
     }
@@ -91,7 +92,7 @@
       </tbody>
     </table>
     
-    <button onclick="clearData()">Limpiar Datos</button>
+    <button onclick="clearData()">Eliminar Todos Los Datos</button>
   </div>
 
   <script>
