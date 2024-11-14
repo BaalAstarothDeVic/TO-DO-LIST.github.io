@@ -1,15 +1,28 @@
 {
-  "name": "TODO-LIST (Servicio Constitucional)",
   "short_name": "TODO-LIST",
+  "name": "TODO-LIST (Servicio Constitucional)",
+  "description": "Lista de tares, proecto del Servicio Constitucional",
   "start_url": "https://baalastarothdevic.github.io/",
+  "background_color": "#4CAF50",
+  "display_override": ["window-control-overlay", "minimal-ui"],
   "display": "standalone",
-  "background_color": "#ffffff",
+  "scope": "/",
   "theme_color": "#4CAF50",
   "icons": [
     {
-      "src": "LOGO.png",
-      "sizes": "192x192",
-      "type": "Imagenes/png"
+      "src": "/Imagenes/Logo.JPG",
+      "type": "imagenes/jpg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/Imagenes/Logo.JPG",
+      "type": "imagenes/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/Imagenes/Logo.JPG",
+      "type": "Imagenes/jpg",
+      "sizes": "512x512"
     }
   ]
 }
