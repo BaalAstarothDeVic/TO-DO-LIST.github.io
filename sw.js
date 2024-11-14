@@ -5,10 +5,11 @@ self.addEventListener('install', (event) => {
           return   
    Cache.addAll([
             '/index.html',
-            '/styles.css',
+            '/sw.js',
             '/manifest.json',
             '/service-worker.js',
             '/fondo.jpg',
+            '/Logo.JPG'
           ]);
         })
     );
