@@ -1,28 +1,52 @@
 {
-  "short_name": "TODO-LIST",
-  "name": "TODO-LIST (Servicio Constitucional)",
-  "description": "Lista de tares, proecto del Servicio Constitucional",
-  "start_url": "index.html",
-  "background_color": "#4CAF50",
-  "display_override": ["window-control-overlay", "minimal-ui"],
-  "display": "standalone",
-  "scope": "/",
+  "name": "TO-DO-LIST (Servicio Constitucional)",
+  "short_name": "TO-DO-LIST",
   "theme_color": "#4CAF50",
+  "background_color": "#4CAF50",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
   "icons": [
     {
-      "src": "/Imagenes/Logo.JPG",
-      "type": "imagenes/jpg",
-      "sizes": "512x512"
+      "src": "Imagenes/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
     },
     {
-      "src": "/Imagenes/Logo.JPG",
-      "type": "imagenes/jpg",
-      "sizes": "192x192"
+      "src": "Imagenes/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
     },
     {
-      "src": "/Imagenes/Logo.JPG",
-      "type": "Imagenes/jpg",
-      "sizes": "512x512"
+      "src": "Imagenes/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "Imagenes/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "Imagenes/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "Imagenes/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "Imagenes/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "Imagenes/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ]
 }
