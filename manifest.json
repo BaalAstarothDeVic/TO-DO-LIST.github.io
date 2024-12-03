@@ -1,52 +1,53 @@
 {
   "name": "TO-DO-LIST (Servicio Constitucional)",
   "short_name": "TO-DO-LIST",
-  "theme_color": "#4CAF50",
   "background_color": "#4CAF50",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
-  "start_url": "/",
+  
   "icons": [
     {
-      "src": "Imagenes/icon-72x72.png",
+      "src": "assets/Imagenes/icon-72x72.png",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "Imagenes/icon-96x96.png",
+      "src": "assets/Imagenes/icon-96x96.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "Imagenes/icon-128x128.png",
+      "src": "assets/Imagenes/icon-128x128.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "Imagenes/icon-144x144.png",
+      "src": "assets/Imagenes/icon-144x144.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "Imagenes/icon-152x152.png",
+      "src": "assets/Imagenes/icon-152x152.png",
       "sizes": "152x152",
       "type": "image/png"
     },
     {
-      "src": "Imagenes/icon-192x192.png",
+      "src": "assets/Imagenes/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "Imagenes/icon-384x384.png",
+      "src": "assets/Imagenes/icon-384x384.png",
       "sizes": "384x384",
       "type": "image/png"
     },
     {
-      "src": "Imagenes/icon-512x512.png",
+      "src": "assets/Imagenes/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+    "start_url": ".",
+    "theme_color": "#4CAF50"
 }

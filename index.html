@@ -7,7 +7,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="manifest" href="manifest.json">
-    <link rel="service-worker" href="service-worker.js">
+    <link href="assets/style/style.css" rel="stylesheet" />
+    <link rel="icon" type="assets/Imagenes/x-icon" href="assets/Imagenes/favicon.ico" />
     <link rel="sw" href="sw.js"> 
 
     <title>TODO-LIST</title>
@@ -16,7 +17,7 @@
     
     body {
       font-family: Arial, sans-serif;
-      background-image: url("Imagenes/fondo.jpg"); /*Ingresa el fondo*/
+      background-image: url("assets/Imagenes/fondo.jpg"); /*Ingresa el fondo*/
       background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda el área */
       background-repeat: no-repeat; /* Evita que la imagen se repita */
     }
@@ -150,6 +151,10 @@
         addItem();
     }
     });
+
+    window.onbeforeunload = function(event) {
+            return "seguro que quiere abandonar la pagina?";
+        }
 
   </script>
 </body>
